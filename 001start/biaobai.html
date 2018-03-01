@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+    <title>歌词</title>
+    <style type="text/css">
+        body{
+            background: url("./images/0.jpg");
+            background-size: 100% 100%;
+        }
+        html{
+            height:100%;
+        }
+        @keyframes myfirst {
+            0%{opacity: 0}
+            50%{opacity: 100}
+            75%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes mysecond {
+            0%{opacity: 0}
+            50%{opacity: 0}
+            75%{opacity: 100}
+            100%{opacity: 0}
+        }
+        p{
+            font-size: 200%;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+
+        }
+        #song{
+            animation: myfirst 10s infinite;
+        }
+        #author{
+            animation: mysecond 10s infinite;
+        }
+    </style>
+ </head>
+  <body>
+    <audio src="bgms/Nicholas Cheung - Only Wish.mp3" controls="controls" autoplay="autoplay">
+      Your browser does not support the audio tag.
+    </audio>
+    <p id="song">Nicholas Cheung</p>
+    <p id="author">Only Wish</p>
+  </body>
+   
+</html>
